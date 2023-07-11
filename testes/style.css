@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.azul {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.vermelho {
+    background-color: red;
+    overflow: auto;
+}
+.laranja {
+    background-color:orange;
+
+}
+.verde {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    top: 10px;
+}
+.roxo {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.roxo p {
+    border:1px black solid;
+}
+
+.paragrafo {
+    display: inline;
+    border:1px black solid;
+}
+
