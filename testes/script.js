@@ -1,6 +1,6 @@
  /*----------------------------------- WHILE/FOR ---------------------------------------------*/
 
-let tabuada = 3;
+let tabuada = 5;
 let contador = 1;
 
 while (contador <=10){
@@ -100,7 +100,36 @@ document.getElementsByClassName('test').style="color: red";
 */
 
 
+/*----------------------------------- FUNCAO ---------------------------------------------*/
+let nNumero = 0;
+
+let raizQuadrada = function(nNumero){
+    let resultado = nNumero * nNumero;
+
+    return resultado;
+
+}
+
+console.log( "Resultado: " + raizQuadrada(5));
+    
+let oDobro = (variavel_entrada) => {
+    let resultado2 = variavel_entrada * 2;
+
+    return resultado2;
+}
+
+console.log("Resultado do dobro: " + oDobro(10));
+
+function Soma(){
+    return "deu certo";
+}
+console.log(Soma());
 
 
+let itens = document.getElementsByTagName('p');
+console.log(itens);
+console.log(itens.length);
 
-
+for (i=0 ; i<itens.length ; i++){
+    console.log(itens[i].id);
+}
